@@ -1,3 +1,23 @@
 body{
     font-family:'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+input,button{
+    margin: 5px;
+    padding: 10px;
+}
+
+ul{
+   list-style-type: none;
+
+}
+
+li{
+    margin:10px 0 ;
 }
