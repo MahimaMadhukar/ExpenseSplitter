@@ -6,6 +6,19 @@
     <title>Expense Splitter</title>
 </head>
 <body>
-    
+    <h1>Expense Splitter</h1>
+    <form action="" id="expense-form">
+        <input type="text" id="description" placeholder="Description" required>
+        <input type="number" id="amount" placeholder="Amount" required>
+        <input type="text" id="paidBy" placeholder="Paid By" required>
+        <input type="text" id="splitAmong" placeholder="Split Among (Comma seperated)">
+        <button type="submit">Add Expense</button>
+    </form>
+
+    <h2>Expenses</h2>
+    <ul id="expense-list"></ul>
+
+    <h2>Summary</h2>
+    <ul id="Summary-list"></ul> 
 </body>
 </html>
