@@ -17,3 +17,13 @@ function addExpense(){
 
     document.getElementById('expense-form').reset();
 }
+
+function displayExpenses(){
+    const expenseList = document.getElementById("expense-list");
+    expenseList.innerHTML = '';
+
+    expenses.forEach(expense=>{const li = document.createElement('li');
+        li.textContent = `${expense.description} - $${expense.amount} paid by ${expense.paidBy}, Split among ${expense.splitAmong.join(',')}`
+    });
+}
+
